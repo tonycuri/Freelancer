@@ -2,6 +2,7 @@
     --oscuro: #212121;
     --primario: #ffc107;
     --secundario:#0097a7;
+    --anchoPantalla:1200px;
 }
 html {
     box-sizing: border-box;
@@ -19,6 +20,14 @@ body{
 }
 h1,h2,h3{
     margin: 0;
+}
+h2,h3{
+    text-align: center;
+}
+h3{
+    color: var(--secundario);
+    font-weight: 400;
+    font-size: 3rem;
 }
 .site-header{
     background-color: white;
@@ -89,4 +98,18 @@ h1,h2,h3{
     font-weight: 700;
     font-size: 2.2rem;
     border-radius: 1.5rem;
+}
+.contenedor{
+    max-width: var(--anchoPantalla);
+    margin: 0 auto;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 13px 24px 3px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 13px 24px 3px rgba(0,0,0,0.62);
+    box-shadow: 0px 13px 24px 3px rgba(0,0,0,0.62)
+}
+.servicios{
+    margin-top: 3rem;
+    margin: 3rem auto;
 }
